@@ -3,7 +3,7 @@ let userName
 let Password
 
 userName = prompt("what's your name?","");
-if (userName === "Admin"){// ===とする点に注意
+if (userName === "masa"){// ===とする点に注意
 Password = prompt("Pls fill in your password.","");
    if (Password === "abc"){
     alert("welcome");
