@@ -7,7 +7,7 @@ if (userName === "masa"){// ===とする点に注意
 Password = prompt("Pls fill in your password.","");
    if (Password === "abc"){
     alert("welcome");
-    window.location.href = "top.html";
+    location.href = "top.html";
    } else if (Password === null || Password === ""){// キャンセルを押した場合と何も入力しなかった場合
     alert("canceled");
    } else {
